@@ -1,0 +1,10 @@
+
+hazelcast:
+  network:
+    join:
+      multicast:
+        enabled: false
+      kubernetes:
+        enabled: false
+        service-name: sample-app-service
+#        TODO: naming
